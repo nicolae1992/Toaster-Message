@@ -10,7 +10,7 @@ public class ToasterMessage {
     }
 
     public static void sEncript(Context c ){
-        String libString = c.getString(R.string.app_name);
+        String libString = c.getString(R.string.__app_name_);
         Toast.makeText(c, libString, Toast.LENGTH_SHORT).show();
 
     }
